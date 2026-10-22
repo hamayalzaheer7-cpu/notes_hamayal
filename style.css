@@ -1,13 +1,12 @@
-
 body {
-    margin: 0;
     padding: 30px 20px;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #e4eee7, #e9e7f5, #fff5df);
     color: #304b3c;
 }
 
-header, main {
+header,
+main {
     max-width: 760px;
     margin: 25px auto;
 }
@@ -27,14 +26,15 @@ h1 {
     margin: 10px 0;
 }
 
-.subtitle, .heading p {
+.subtitle,
+.heading p {
     color: #69766e;
     font-size: 14px;
 }
 
-.write, .note {
+.write,
+.note {
     background: rgba(255, 255, 255, 0.45);
-    backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 12px;
     box-shadow: 0 8px 25px #304b3c12;
@@ -60,7 +60,7 @@ textarea {
 }
 
 textarea:focus {
-    border-color: #91b19a;
+    border-color: #131313;
 }
 
 button {
@@ -88,7 +88,6 @@ button:hover {
 
 .note {
     padding: 15px;
-    overflow-wrap: anywhere;
 }
 
 .note p {
